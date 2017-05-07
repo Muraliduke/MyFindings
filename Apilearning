@@ -1,0 +1,39 @@
+Reference:-https://www.youtube.com/watch?v=7YcW25PHnAA
+
+https://www.facebook.com/youtube
+
+now to get response from an API request
+https://graph.facebook.com/youtube
+
+filters by acceptng params
+https://graph.facebook.com/youtube?fields=id,name,likes
+
+
+2).
+maps.googleapis.com/maps/api/geocode/json
+
+Sever:maps.googleapis.com
+
+RESOURCE= /maps
+/api
+/geocode
+/json
+
+
+maps.googleapis.com/maps/api/geocode/json?address=chicago&sensor=false
+
+it gives json response
+
+
+3).Now instagram
+instagram.com/developer
+
+go to API console
+
+
+GET  https://api.instagram.com/v1/media/search
+
+in qyery add lat ,long and distance
+It shows response
+
+programmableweb.com/apis/directory
