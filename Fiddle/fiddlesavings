@@ -1,2 +1,5 @@
 This below fiddle Contains seperate ng-model for checkbox repeat in ng-repeat
 http://jsfiddle.net/PQvQ2/2047/
+
+This fiddle is for custom validation using directive and ng-message in angular 1
+http://jsfiddle.net/ys7mpoh6/444/
