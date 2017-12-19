@@ -1,0 +1,66 @@
+
+https://github.com/coryhouse/pluralsight-redux-starter
+create components
+
+about
+home
+
+root app.js
+
+import React , {PropTypes} from 'react';
+
+class App extends React.component{
+
+render(){
+return(
+<div></div>
+{this.props.children}
+);
+}
+
+App.propTypes={
+children: PropTypes.object.isRequired
+};
+
+};
+
+export default App;
+
+
+Near index.js create routes.js
+
+import React from 'react';
+import {Route , IndexRoute} from 'react-router';
+import App from './comp/app';
+import Home from './comp/home/homecopm';
+import Aboutfrom './comp/abt/abtComp';
+
+export default(
+  <Route path='/' component={App}>
+<IndexRoute component={Home} />	
+<Route path='about' component={AbtPage}>
+</Route>
+	
+);
+
+
+Entry pt:-index.js
+
+
+import 'babel-polyfill';
+
+import React from 'react';
+
+import {render } from 'react-dom';
+
+import {Router,browserHistory} from 'react-router';
+import routes from './routes';
+import './styles/styles.css';
+
+render(
+<Router history={browserHistory} routes={routes}/>,
+doc.getElementById('app');
+)
+
+
+
